@@ -83,9 +83,9 @@ SHORT|9/5/22
 
 ```java
 System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)));
-        System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)));
-        System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
-        System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT)));
+System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG)));
+System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM)));
+System.out.println(today.format(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT)));
 ```
 
 The above produces the following output
